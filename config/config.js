@@ -1,10 +1,9 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Itan",
 	links: [
 		{
 			title: "About",
@@ -25,8 +24,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Itan",
+	description: "A Fullstack Developer || Backend Developer || Frontend Developer.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +35,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1fn6M8Xg_4orc8rPD5J3fr3pDBszsQL8F/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,9 +44,12 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"My name is Itan Sutarlan, and I am an aspiring Full Stack Web Developer with a passion for Backend Development. My journey in the tech world began with my enrollment in the Full Stack Web Development course at Binar Academy, followed by honing my skills as a Backend Developer Expert at Dicoding and completing a FullStack Javascript Immersive Bootcamp at Hacktiv8.",
+		"While I may not have a vast career experience related to tech industry just yet, my dedication to continuous learning and growth drives me forward. I am enthusiastic about embracing challenges and staying up-to-date with the ever-evolving technology landscape.",
+		'One of my significant accomplishments is my involvement in the development of "FlexWell," a mobile application that promotes a healthy lifestyle. Collaborating on this project has allowed me to apply my knowledge and skills in a practical setting, contributing to the creation of a tool that benefits people striving for better health.',
+		"Looking ahead, I am eager to embark on my professional journey by joining a solid team with challenging projects. I believe that the ideal environment for me is one where I can both contribute effectively as a software developer and learn extensively from experienced mentors and colleagues.",
+		"As a backend and frontend enthusiast, I am committed to leveraging my expertise to create seamless and user-friendly digital experiences. My goal is to be part of a team that fosters innovation, embraces collaboration, and shares a collective vision of creating remarkable software solutions.",
+		"Thank you for taking the time to learn a bit about me. I am excited about the possibilities that lie ahead, and I am eager to contribute my skills and dedication to the world of web development. Let's connect and explore opportunities for collaboration and growth!"
 	],
 }
 
@@ -56,14 +58,19 @@ export const work = {
 	cards: [
 		{
 			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			description: "I create a mobile app using React Native.",
 			icons: null,
 		},
 		{
 			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			description: "I create responsive static websites using Reactjs and Vuejs.",
 			icons: null,
-		}
+		},
+		{
+			title: "Backend Development",
+			description: "I create a Restful API using nodejs frameworks like hapijs and expressjs.",
+			icons: null,
+		},
 	],
 }
 
@@ -71,40 +78,36 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Forum API",
+			description: "A robust API application implementing automation testing, clean architecture and and CI/CD. Tech stack: Hapi framework, PostgreSQL, Jest, Github Action, AWS EC2, AWS RDS",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/ItanSutarlan/forum-api.git",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Open Music API",
+			description: "An Open Music API implementing Queue Messaging using RabbitMQ.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+					icon: faGithub,
+					link: "https://github.com/ItanSutarlan/open-music-api.git",
 				},
 				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faGithub,
+					link: "https://github.com/ItanSutarlan/music-app-queue-consumer.git",
 				},
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "FlexWell App",
+			description: "A mobile app, a collaborative project built with React Native, that helps people who want to start a healthy lifestyle.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/orgs/FlexWell-Team/repositories",
 				},
 			]
 		},
@@ -113,17 +116,12 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Feel free to reach out directly by email at itan030644@gmail.com.",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:itan030644@gmail.com",
 			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
 		},
 	]
 }
@@ -131,35 +129,23 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Itan Sutarlan | Software developer | Backend developer | Reactjs developer | Vuejs developer",
+	description: "I create mobile apps and backend apps. I graduated from Hacktiv8 FullStack Javascript Immersive Bootcamp.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@ItanSutarlan",
+	description: "Backend Developer | Frontend Developer | FullStack Developer",
 	cards: [
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/ItanSutarlan",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "https://www.linkedin.com/in/itan-sutarlan/",
 		},
 	]
 }
